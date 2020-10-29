@@ -285,19 +285,26 @@ SECTION ABOUT ME
 }
 
 .testimontial {
-    background-color: #726c6c;
-    border: 1px solid #e5e5e5;
-    width: %;
+
+    width: 50%;
     padding: 0 15px;
     margin: 0 0 30px 0;
 }
 
 .testimontial .text {
-    background-color: #726c6c;
+    background-color: #fcfcfc;
+    border: 1px solid #e5e5e5;
+    color: #555555;
+    font-size: 16px;
+    padding: 15px 15px 30px 15px;
+
 }
 
 .person {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: -15px 0 0;
 }
 
 .person img {
@@ -305,10 +312,17 @@ SECTION ABOUT ME
     width: 60px;
     height: 60px;
     margin: 0 10px;
+    border: 1px solid #e5e5e5;
 }
 
 .person .name {
     font-size: 15px;
+
+    margin: 0;
+}
+
+.person .company {
+    font-size: 12px;
     color: #ff724c;
     font-style: italic;
     margin: 0;
@@ -400,6 +414,26 @@ SECTION Blog
     display: block;
     width: 100%;
     transition: 0.3s;
+    position: relative;
+}
+
+.photogallery .photo a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    opacity: .0;
+}
+
+.photogallery .photo a:hover {
+    display: block;
+}
+
+.photogallery .photo a:hover::after {
+    opacity: 0.5;
 }
 
 .photogallery .photo a i {
@@ -415,8 +449,12 @@ SECTION Blog
 
 }
 
+.photogallery .photo a:hover i {
+    opacity: 1;
+}
 
-.photogallery .photo .box-style a .overlay {
+/*  */
+/* .photogallery .photo .box-style a .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -430,8 +468,4 @@ SECTION Blog
 
 .photogallery .photo a:hover .overlay {
     opacity: 0.5;
-}
-
-.photogallery .photo a:hover i {
-    opacity: 1;
-}
+} */
