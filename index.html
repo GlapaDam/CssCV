@@ -33,13 +33,18 @@
 </head>
 
 <body>
-    <nav class="nav">
-        <div class="my-photo">
-            <img src="/assets/img/photo.png" alt="">
+
+    <nav class="nav" id="navigation">
+        <div class="me">
+            <div class="my-photo">
+                <img src="/assets/img/photo.png" alt="">
+
+            </div>
+            <h2 class="my-name">
+                Damian G
+            </h2>
         </div>
-        <h2 class="my-name">
-            Alex <br> Smith
-        </h2>
+
         <ul class="menu">
             <li>
                 <a class="active" href="#">
@@ -66,7 +71,15 @@
             </li>
 
         </ul>
+
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
     </nav>
+
     <main>
         <section class="name">
             <h1>Alex Smith</h1>
@@ -76,7 +89,7 @@
             <div class="container">
                 <header class="main-header">
                     <h2>About Me</h2>
-                    <h5>Artist</h5>
+                    <h5>Artist, Thinker, Creative Doer</h5>
                 </header>
 
                 <div class="personal-info">
@@ -85,8 +98,7 @@
                     </div>
                     <div class="info">
                         <p>Praesent ut tortor consectetur, semper sapien non, lacinia augue. Aenean arcu libero,
-                            facilisis et nisi non, tempus faucibus tortor. Mauris vel nulla aliquam, pellentesque enim
-                            ac, faucibus tortor. Nulla odio nibh, cursus sit amet urna id, dignissim euismod augue.</p>
+                            facilisis et nisi non, tempus faucibus tortor. </p>
 
                         <p>Duis sollicitudin, libero porttitor rutrum ultrices, turpis lorem fermentum justo, quis
                             ornare augue tortor non est. Class aptent taciti sociosqu ad litora torquent per conubia
@@ -106,51 +118,105 @@
                         </ul>
                     </div>
                 </div>
-                <div class="testimontials">
-                    <div class="testimontial">
-                        <div class="text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ut dignissimos rerum eos
-                            earum nemo magni corrupti repellendus! Commodi dolor a cupiditate ad saepe magni rerum
-                            distinctio voluptatum temporibus illo?
+                <div class="services">Services</div>
+                <div class="services-body">
+                    <div class="ser">
+                        <div class="web">
+                            <img src="/assets/img/creativity_icon.png" alt="">
+                            <h1>Web</h1>
+                            <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p1>
                         </div>
-                        <div class="person">
-                            <img src="https://picsum.photos/50" alt="photo">
-                            <div class="data-p">
-                                <p class="name">John Doe</p>
-                                <p class="company">Lindsley's Lumber</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimontial">
-                        <div class="text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ut dignissimos rerum eos
-                            earum nemo magni corrupti repellendus! Commodi dolor a cupiditate ad saepe magni rerum
-                            distinctio voluptatum temporibus illo?
-                        </div>
-                        <div class="person">
-                            <img src="https://picsum.photos/50" alt="photo">
-                            <div class="data-p">
-                                <p class="name">John Doe</p>
-                                <p class="company">Lindsley's Lumber</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimontial">
-                        <div class="text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ut dignissimos rerum eos
-                            earum nemo magni corrupti repellendus! Commodi dolor a cupiditate ad saepe magni rerum
-                            distinctio voluptatum temporibus illo?
-                        </div>
-                        <div class="person">
-                            <img src="https://picsum.photos/50" alt="photo">
-                            <div class="data-p">
-                                <p class="name">John Doe</p>
-                                <p class="company">Lindsley's Lumber</p>
-                            </div>
+                        <div class="photography">
+
+                            <img src="/assets/img/photography_icon.png" alt="">
+                            <h1>Photography</h1>
+                            <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p1>
                         </div>
                     </div>
                 </div>
+                <div class="clients">Clients</div>
+                <div class="pi">
+                    <div class="pics"><img src="assets/img/client_1-1-80x80.png" alt=""></div>
+                    <div class="pics"><img src="assets/img/client_2-80x80.png" alt=""></div>
+                    <div class="pics"><img src="assets/img/client_3-80x80.png" alt=""></div>
+
+                </div>
+
+
+                <div class="testimontials-title">Testimontials</div>
+                <div class="testimontials">
+                    <div class="testimontial">
+                        <div class="text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ut dignissimos rerum
+                            eosearum nemo magni corrupti repellendus!
+                        </div>
+                        <div class="person">
+                            <img src="https://picsum.photos/50" alt="photo">
+                            <div class="data-p">
+                                <p class="name">John Doe</p>
+                                <p class="company">Lindsley's Lumber</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="testimontial">
+                        <div class="text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ut dignissimos rerum
+                            eos
+                            earum nemo magni corrupti repellendus!
+                        </div>
+                        <div class="person">
+                            <img src="https://picsum.photos/50" alt="photo">
+                            <div class="data-p">
+                                <p class="name">John Doe</p>
+                                <p class="company">Lindsley's Lumber</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimontial">
+                        <div class="text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ut dignissimos rerum
+                            eos
+                            earum nemo magni corrupti repellendus!
+                        </div>
+                        <div class="person">
+                            <img src="https://picsum.photos/50" alt="photo">
+                            <div class="data-p">
+                                <p class="name">John Doe</p>
+                                <p class="company">Lindsley's Lumber</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="funfacts-title">Fun Facts</div>
+                <div class="funfact">
+                    <div class="fun">
+                        <i class="far fa-smile"></i>
+                        <h1>Happy Clients</h1>
+                        <p1>1,024</p1>
+                    </div>
+                    <div class="fun">
+                        <i class="far fa-clock"></i>
+                        <h1>Working Hours</h1>
+                        <p1>6,256</p1>
+                    </div>
+                    <div class="fun">
+                        <i class="fas fa-award"></i>
+                        <h1>Awards Won</h1>
+                        <p1>21</p1>
+                    </div>
+
+                    <div class="fun">
+                        <i class="fas fa-coffee"></i>
+                        <h1>Coffee Consumed</h1>
+                        <p1>20,000</p1>
+                    </div>
+                </div>
             </div>
+
 
 
         </section>
@@ -187,7 +253,6 @@
                                     <span class="overlay"></span>
                                     <i class="fas fa-sticky-note"></i>
                                     <img src="/assets/img/blog_post_3_full.jpg" alt="">
-
                                 </a>
                                 <div class="date">
                                     <span class="day">22</span>
@@ -205,7 +270,6 @@
                                     <span class="overlay"></span>
                                     <i class="fas fa-sticky-note"></i>
                                     <img src="/assets/img/blog_post_4_full.jpg" alt="">
-
                                 </a>
                                 <div class="date">
                                     <span class="day">30</span>
@@ -223,7 +287,6 @@
                                     <span class="overlay"></span>
                                     <i class="fas fa-sticky-note"></i>
                                     <img src="/assets/img/blog_post_1_full-1.jpg" alt="">
-
                                 </a>
                                 <div class="date">
                                     <span class="day">2</span>
@@ -234,16 +297,11 @@
                             <p class="description">Designed for Everyone, Everywhere</p>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-
-
         </section>
-
     </main>
-
+    <script src="/assets/js/scripts.js"></script>
 
 </body>
 
